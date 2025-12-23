@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTravel | Travel Website</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+ 
+     <header class="header" id="header">
+     <h1 class="header_title">Bus<span>Around</span></h1>
+     <ul class="header_nav" id="headerNav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+     </ul>
+     <div class="header_menu" id="toggleMenu">
+        <i class="fa-solid fa-bars" id="bars"></i>
+        <i class="fa-solid fa-xmark" id="xmark"></i>
+     </div>
+      </header> 
+
+     <section class="home" id="home">
+        <div class="home_content">
+            <h2 class="home_small-title small-title">Bus<span style="color: green;">Around</span></h2>
+            <h1 class="home_title title">Book Buses Across Nepal</h1>
+            <p class="home_desc desc">
+  Discover destinations and book safe, reliable bus journeys across Nepal.
+</p>
+
+            <a href="https://v0-bus-around.vercel.app" target="_blank">
+  <button class="home_content-btn">
+    <span>Book Bus Now</span>
+    <i class="fa-solid fa-bus"></i>
+  </button>
+</a>
+        </div>
+
+
+     </section>
+
+     <section class="about" id="about">
+        <div class="about_cards">
+            <div class="about_card about_card-1"></div>
+            <div class="about_card about_card-2">
+             
+            </div>
+            <div class="about_card about_card-3"></div>
+        </div>
+
+        <div class="about_content">
+            <h2 class="about_title small-title">About Us</h2>
+            <h1 class="about_title title">About<span>Our Travel</span></h1>
+            <p class="about_desc desc">
+               BusAround is a modern travel platform designed to help you explore Nepal
+  and book safe, reliable bus journeys with ease. From popular tourist
+  destinations to remote scenic routes, we connect travelers with trusted bus
+  services across the country. Our goal is to make travel planning simple,
+  affordable, and accessible for everyone.
+            </p>
+            <div class="about_stats">
+    <button class="about_stat about_stat-btn-1">
+        <i class="fa-solid fa-route"></i>
+        <span>100+ Bus Routes</span>
+    </button>
+    <button class="about_stat about_stat-btn-2">
+        <i class="fa-solid fa-bus"></i>
+        <span>Trusted Bus Operators</span>
+    </button>
+</div>
+
+        </div>
+
+        <img src="images/lcn.jpg" class="about_travel-img">
+     </section>
+
+     <section class="destinations" id="destinations">
+        <div class="destinations_content">
+            <h2 class="destinations_small-title small-title">
+                Find Destinations
+            </h2>
+            <h1 class="destinations_title title">
+  Popular <span>Bus Routes</span>
+</h1>
+
+            <p class="destinations_desc desc">
+               Easily search bus routes, compare schedules, and book your journey
+  across Nepal in just a few clicks.
+            </p>
+            <button class="destinations_content-btn"
+onclick="window.location.href='https://v0-bus-around.vercel.app'">
+  <span>Search Buses</span>
+  <i class="fa-solid fa-arrow-right"></i>
+</button>
+
+        </div>
+        
+          
+<div class="swiper">
+  
+  <div class="swiper-wrapper">
+   
+    <div class="swiper-slide">
+        <div class="swiper-slide_container">
+            <img src="images/bs1 (1).jpg">
+            <div class="swiper-slide_content">
+                <h3 class="swiper-slide_content-title">Pokhara</h3>
+                <span class="swiper-slide_content-price"></span>
+                <span class="swiper-slide_content-rating">
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-slide_container">
+            <img src="images/bs2.png">
+            <div class="swiper-slide_content">
+                <h3 class="swiper-slide_content-title">Kathmandu</h3>
+                <span class="swiper-slide_content-price"></span>
+                <span class="swiper-slide_content-rating">                  
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-slide">
+        <div class="swiper-slide_container">
+            <img src="images/bs3.jpg">
+            <div class="swiper-slide_content">
+                <h3 class="swiper-slide_content-title">Butwal</h3>
+                <span class="swiper-slide_content-price"></span>
+                <span class="swiper-slide_content-rating">            
+                </span>
+            </div>
+        </div>
+    </div>
+    
+    ...
+  </div>
+  
+  <div class="swiper-pagination"></div>
+
+  
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  
+</div>
+        </div>
+     </section>
+
+     <section class="services" id="services">
+        <img class="services_man-img" src="images/route.jpg">
+        <div class="services_circle"></div>
+
+        <div class="services_content">
+            <h1 class="title">Our Services</h1>
+            <p class="desc">
+  We provide a simple and reliable bus booking service to help you travel
+  across Nepal with confidence. Compare routes, schedules, and operators,
+  and book your tickets easily in one place.
+</p>
+
+            <div class="services_cards">
+                <div class="services_cards">
+    <a href="https://v0-bus-around.vercel.app" target="_blank" class="services_link">
+        <div class="services_card">
+            <i class="fa-solid fa-bus"></i>
+            <h3>Bus Booking</h3>
+            <span>Book buses across Nepal</span>
+        </div>
+    </a>
+</div>
+
+
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div>
+            <h1 class="footer_title title">Bus<span>Around</span></h1>
+           <p>
+  Reliable bus booking and travel information for journeys across Nepal.
+</p>
+
+
+        </div>
+        <div>
+            <span class="footer_menu-title">Menu</span>
+            <ul class="footer_menus">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#destinations">Destinstions</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="footer_menu-title">Contact</span>
+            <ul class="footer_menus">
+                <li><a>busaround@gmail.com</a></li>
+                <li><a>01-49872340</a></li>
+                <li><a href="#destinations">Destinstions</a></li>
+                <li><a>Lainchour, Kathmandu</a></li>
+            </ul>
+        </div>
+     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="scrollreveal.js"></script>
+    <script src="swiper.js"></script>
+</body>
+
+</html>
